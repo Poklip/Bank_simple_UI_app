@@ -1,4 +1,6 @@
 package com.aeon.testapp.ui
 
-class PaymentsFragment {
+import androidx.fragment.app.Fragment
+
+class PaymentsFragment : Fragment() {
 }

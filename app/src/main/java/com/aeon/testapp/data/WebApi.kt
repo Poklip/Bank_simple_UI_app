@@ -1,23 +1,21 @@
 package com.aeon.testapp.data
 
+import com.aeon.testapp.data.models.LoginInfo
 import retrofit2.Call
+import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.Headers
 import retrofit2.http.POST
-import retrofit2.http.Query
 
 interface WebApi {
 
     @Headers("app-key: 12345", "v: 1")
     @POST("login")
     fun login(
-        @Query("login") login: String,
-        @Query("password") password: String,
+        @Body loginInfo: LoginInfo
     ) : Call<String>
 
-    @Headers("app-key: 12345", "v: 1")
+    @Headers("app-key: 12345", "v: 1", "token: ")
     @GET("payments")
-    fun getPayments(
-        @Query("token") token: String
-    ) : Call<List<Any>>
+    fun getPayments() : Call<List<Any>>
 }
