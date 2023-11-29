@@ -1,6 +1,7 @@
 package com.aeon.testapp.data
 
 import com.aeon.testapp.data.models.LoginInfo
+import com.aeon.testapp.data.models.ResponseToken
 import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.GET
@@ -13,7 +14,7 @@ interface WebApi {
     @POST("login")
     fun login(
         @Body loginInfo: LoginInfo
-    ) : Call<String>
+    ) : Call<ResponseToken>
 
     @Headers("app-key: 12345", "v: 1", "token: ")
     @GET("payments")
