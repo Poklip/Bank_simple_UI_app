@@ -11,7 +11,7 @@
     <color name="soft_grey">#CCCCCC</color>
     <color name="grey">#333333</color>
     <color name="back_grey">#888888</color>
-    <color name="soft_yellow">#CCCC00</color>
+    <color name="yellow">#FFFF00</color>
     <color name="soft_green">#66FF66</color>
 
 </resources>

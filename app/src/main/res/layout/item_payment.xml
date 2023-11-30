@@ -13,16 +13,21 @@
         android:padding="3dp">
 
         <TextView
-            android:id="@+id/tvIdDeclaration"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:text=" Payment Id:"
+            android:gravity="fill"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
             android:background="@drawable/border_yellow"/>
 
         <TextView
             android:id="@+id/tvId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/border_yellow"/>
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:background="@color/yellow"/>
 
     </LinearLayout>
 
@@ -33,16 +38,20 @@
         android:padding="3dp">
 
         <TextView
-            android:id="@+id/tvTitleDeclaration"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:text=" Title:"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
             android:background="@drawable/border_yellow"/>
 
         <TextView
             android:id="@+id/tvTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/border_yellow"/>
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:background="@color/yellow"/>
 
     </LinearLayout>
 
@@ -53,16 +62,20 @@
         android:padding="3dp">
 
         <TextView
-            android:id="@+id/tvAmountDeclaration"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:text=" Amount:"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
             android:background="@drawable/border_green"/>
 
         <TextView
             android:id="@+id/tvAmount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/border_green"/>
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:background="@color/soft_green"/>
 
     </LinearLayout>
 
@@ -73,16 +86,20 @@
         android:padding="3dp">
 
         <TextView
-            android:id="@+id/tvCreatedDeclaration"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:text=" Created:"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
             android:background="@drawable/border_yellow"/>
 
         <TextView
             android:id="@+id/tvCreated"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/border_yellow"/>
+            android:textColor="@color/black"
+            android:textAlignment="viewEnd"
+            android:background="@color/yellow"/>
 
     </LinearLayout>
 

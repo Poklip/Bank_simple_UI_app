@@ -8,7 +8,7 @@ data class Payment(
     @SerializedName("title")
     val paymentTitle: String,
     @SerializedName("amount")
-    val paymentAmount: String?,
+    val paymentAmount: Any?,
     @SerializedName("created")
     val paymentCreated: Long?
 )
